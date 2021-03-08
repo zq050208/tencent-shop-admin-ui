@@ -1,0 +1,24 @@
+$white: #ffffff;
+$black: #000000;
+$searchInputWidth: 200px;
+$searchInputHeight: 35px;
+$tableMarginTop: 20px;
+.search-input{
+  width: $searchInputWidth;
+  height: $searchInputHeight
+}
+.search-input .el-input__inner{
+  height: $searchInputHeight;
+  line-height: $searchInputHeight;
+}
+.table{
+  margin-top: $tableMarginTop;
+}
+.add-btn-line{
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.el-button{
+  padding: 7px 20px;
+}
